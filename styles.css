@@ -567,3 +567,26 @@ footer .bottom h4{
     font-family: var(--text-font);
     color: #838383;
 }
+
+
+
+/*****Responsive****************/
+
+@media all and (min-width:980px){
+    #product-featuring .featured-products h2 {
+        width: 30%;
+        text-align: center;
+    }
+}
+@media all and (min-width:360px){
+    #product-featuring .featured-products h2 {
+        width: 40%;
+        text-align: center;
+    }
+}
+@media all and (min-width:200px){
+    #product-featuring .featured-products h2 {
+        width: 40%;
+        text-align: center;
+    }
+}
